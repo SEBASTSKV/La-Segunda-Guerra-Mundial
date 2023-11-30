@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos de la Segunda Guerra Mundial</title>
+		<style>
+			body {
+				font-family: Arial, sens-serif;
+				margin: 0;
+				padding: 0;
+				background-color: #f0f0f0;
+			}
+
+			header {
+				background-color: #333;
+				color: #fff;
+				padding: 10px;
+				text-align: center;
+			}
+
+			nav {
+				background color: #444;
+				padding: 10px;
+				text-align: center;
+			}
+		    nav a {
+				color: #000000;
+				text-decoration: none;
+				margin: 0 20px;
+			}
+			
+			article {
+				background-color: #fff;
+				padding: 20px;
+				margin: 20px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+			}
+
+			section {
+				background-color: #f9f9f9;
+				padding: 20px;
+				margin: 20px;
+				border: 1px solid #ccc;
+				border-radius: 5px;
+			}
+
+			aside {
+				background color: #444;
+				color: #fff;
+				padding: 10px;
+				text-align: left;
+			}
+
+			main {
+				padding: 20px;
+			}
+
+			footer {
+				background-color: #333;
+				color: #fff;
+				text-align: center;
+				padding: 10px;
+			}
+		</style>
+	<script>
+			function guardarDatos() {
+			var nombre = document.getElementById("nombre").value;
+			var apellido = document.get.Element.ById("apellido").value;
+			var ciudad = document.getElementById("ciudad").value;
+			var pais = document.getElementById("pais").value;
+
+			}
+
+			function buscarGoogle() {
+			var query = document.getElementById("busqueda").value;
+			var url = "https://www.google.com/search?q=" + encodeURIComponer
+			window.location.href = url;
+			}
+	</script>
+	</head>
+<body>
+	<header>
+		<h1>La segunda guerra mundial</h1>
+	</header>
+	<nav>
+		
+			<a href="Index.html">Acerca de </a>
+			<a href="Juegos.html">Juegos </a>
+			<a href="Peliculas.html">Peliculas </a>
+    </nav>	
+	<article>
+	 <h2>Juegos de la Segunda Guerra Mundial</h2>
+
+    <ul>
+        <li><strong>Call of Duty Series:</strong> "Call of Duty 2", "Call of Duty: World at War", "Call of Duty: WWII"</li>
+        <li><strong>Medal of Honor Series:</strong> "Medal of Honor: Allied Assault", "Medal of Honor: Pacific Assault"</li>
+        <li><strong>Brothers in Arms Series:</strong> "Brothers in Arms: Road to Hill 30", "Brothers in Arms: Earned in Blood"</li>
+        <li><strong>Company of Heroes Series:</strong> "Company of Heroes"</li>
+        <li><strong>Hearts of Iron IV</strong></li>
+        <li><strong>Battlefield V</strong></li>
+        <li><strong>Sniper Elite Series:</strong> "Sniper Elite", "Sniper Elite V2", "Sniper Elite 3"</li>
+        <li><strong>Day of Infamy</strong></li>
+    </ul>
+	</article>
+	
+		<SECTION>
+	    <div class="form-container">
+        <h2>Guardar datos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre"><br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido"><br>
+
+            <label for="ciudad">Ciudad:</label>
+            <input type="text" id="ciudad" name="ciudad"><br>
+
+            <label for="pais">País:</label>
+            <input type="text" id="pais" name="pais"><br>
+
+            <input type="submit" value="Guardar">
+        </form>
+	</div>
+	<aside>
+    <h2>Buscar en Google</h2>
+    <form action="https://www.google.com/search" method="get">
+        <input type="text" name="q" placeholder="Buscar en Google">
+        <input type="submit" value="Buscar">
+    </form>
+
+    <h3>Vídeo de YouTube</h3>
+    <iframe width="300" height="200" <iframe width="560" height="315" src="https://www.youtube.com/embed/mR1e2KVZROE?si=AY4UlgJyb3yQvVRp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>></iframe>
+	</aside>
+		<section>
+		<div class="form-container">
+			<h2>Guardar datos</h2>
+			<form onsubmit="guardarDatos(); return false,">
+			
+				<input type="submit" value="Guardar">
+			</form>
+		</div>
+		
+	</section>
+	<aside>
+		<h3>Buscar en Google</h3>
+		<form onsubmit="buscarGoogle(); return false;">
+			<input type="text" id="busqueda" placeholder="Buscar en Google">
+			<input type="submit" value="Buscar">
+		</form>
+	</aside>
+
+	<main>
+	
+	</main>
+	
+    <footer>
+        ©2023 Peliculas De La Segunda Guerra Mundial
+    </footer>
+</body>
+</html>
